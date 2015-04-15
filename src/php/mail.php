@@ -3,7 +3,7 @@
 try {
     include(__DIR__ . '/../vendor/mandrill/mandrill/src/Mandrill.php');
     $mandrill = new Mandrill('m4iHoYLG9Bq6-yg8sfVzEA');
-    $to_email = 'alexeybondarenko@me.com';
+    $to_email = 'support@nebo15.com';
     $from_email = getPost('email', 'sender@wallet.best');
 
 
