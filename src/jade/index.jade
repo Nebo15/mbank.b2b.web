@@ -117,10 +117,10 @@ html
 				.join__bg
 					h3 Присоединяйтесь!
 					.form
-						form(action="")
-							input(type="text" placeholder="Имя/номер телефона").input
-							input(type="text" placeholder="Название компании").input
-							textarea(name="", cols="30", rows="10" placeholder="Текст письма").textarea
+						form#feedbackForm(action="./mail.php" method="post")
+							input(type="text", name="name", required, placeholder="Имя/номер телефона").input
+							input(type="text", name="company_name", required, placeholder="Название компании").input
+							textarea(cols="30", rows="10", required, name="text", placeholder="Текст письма").textarea
 							button.submit Отправить письмо
 
 		//load scripts
