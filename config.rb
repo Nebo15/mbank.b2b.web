@@ -1,8 +1,8 @@
 
 #http_path = "/"
 #http_stylesheets_path = "/css"
-#http_images_path = "/img"
-#http_generated_images_path = "/img"
+http_images_path = "/img"
+http_generated_images_path = "/img"
 
 http_path = "/"
 css_dir = "www/css"
