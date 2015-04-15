@@ -4,7 +4,7 @@ try {
     include(__DIR__ . '/../vendor/mandrill/mandrill/src/Mandrill.php');
     $mandrill = new Mandrill('m4iHoYLG9Bq6-yg8sfVzEA');
     $to_email = 'support@wallet.best';
-    $from_email = getPost('email', 'support@wallet.best');
+    $from_email = getPost('email', 'noreply@banks.wallet.best');
 
 
     $message = array(
